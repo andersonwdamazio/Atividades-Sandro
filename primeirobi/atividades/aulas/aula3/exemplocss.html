@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+<title>Exemplo CSS</title>
+
+<!-- CSS Externo -->
+<link rel="stylesheet" href="style.css">
+
+<!-- CSS Interno -->
+<style>
+    #interno {
+        height: 100px;
+        width: 400px;
+        background-color: darkmagenta;
+        color: white;
+
+
+    }
+</style>
+
+
+</head>
+
+<body>
+
+```
+<main>
+
+    <!-- CSS Inline -->
+    <section
+        style="
+            height: 100px;
+            width: 400px;
+            background-color: brown;
+            color: white;
+            
+        "
+    >
+        <h1>Exemplo Inline</h1>
+    </section>
+
+    <!-- CSS Interno -->
+    <section id="interno">
+        <h1>Exemplo CSS Interno</h1>
+    </section>
+
+    <!-- CSS Externo -->
+    <section id="externo">
+        <h1>Exemplo CSS Externo</h1>
+
+        <div>
+            <h1>Exemplo CSS Externo 2</h1>
+
+            <span>
+                <h1>Exemplo CSS Externo 3</h1>
+            </span>
+            <h1>Exemplo CSS 4</h1>
+            <p> Exemplo 1</p>
+            <span>
+                <p>Exemplo 2</p>
+            </span>
+        </div>
+        <button class="btn">
+            Clique aqui
+        </button>
+    </section>
+
+</main>
+
+</body>
+
+</html>
