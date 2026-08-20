@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            #6d3b8f,
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            #35145c,
+            transparent 35%
+        ),
+        #0d0812;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+
+/* =========================
+   CAIXA DA HOME
+   ========================= */
+
+.home {
+    width: 500px;
+
+    padding: 60px 40px;
+
+    text-align: center;
+
+    background: rgba(30, 20, 40, 0.92);
+
+    border: 1px solid #9b4dca;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 10px #9b4dca,
+        0 0 30px rgba(155, 77, 202, 0.5),
+        0 25px 60px rgba(0, 0, 0, 0.7);
+
+    transition: 0.3s;
+}
+
+
+/* =========================
+   NEON
+   ========================= */
+
+.home:hover {
+    border-color: #c77dff;
+
+    box-shadow:
+        0 0 10px #c77dff,
+        0 0 30px rgba(199, 125, 255, 0.7),
+        0 0 50px rgba(155, 77, 202, 0.4),
+        0 25px 60px rgba(0, 0, 0, 0.7);
+}
+
+
+/* =========================
+   TÍTULO
+   ========================= */
+
+.home h1 {
+    font-size: 42px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+    text-shadow:
+        0 0 10px #b06bdd,
+        0 0 25px rgba(176, 107, 221, 0.5);
+}
+
+
+/* =========================
+   TEXTO
+   ========================= */
+
+.home p {
+    color: #d8c9df;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   BOTÃO SAIR
+   ========================= */
+
+.home button {
+    padding: 12px 35px;
+
+    border: 1px solid #b06bdd;
+
+    border-radius: 10px;
+
+    background: #8b4fc1;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 0 8px rgba(176, 107, 221, 0.5);
+}
+
+
+.home button:hover {
+    background: #a855f7;
+
+    border-color: #c77dff;
+
+    box-shadow:
+        0 0 10px #c77dff,
+        0 0 25px rgba(199, 125, 255, 0.7);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   CELULAR
+   ========================= */
+
+@media (max-width: 500px) {
+
+    .home {
+        width: 90%;
+
+        padding: 45px 25px;
+    }
+
+    .home h1 {
+        font-size: 34px;
+    }
+}

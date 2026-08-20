@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exemplo Show</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <fieldset>
+    <legend> Front End</legend>   
+    <div class="login-container">
+
+        <h3>Informe seus dados para realizar o cadastro</h3>
+
+        <form action="/url-api-back-end" method="post">
+
+            <label for="nome">Informe seu nome</label>
+
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                pattern="[A-Za-zÀ-ÿ\s]+"
+                placeholder="Nome"
+                maxlength="30"
+                title="Digite apenas letras e espaços."
+                required
+            >
+
+            <label for="email">Informe seu E-mail</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail"
+                required
+            >
+
+            <label for="senha">Informe sua senha</label>
+
+            <input
+                type="password"
+                id="senha" 
+                minlength="6"
+                name="senha"
+                placeholder="Senha"
+                required>
+
+                <br>
+                <label for ="bio">Insira sua biografia</label>
+                <textarea name="bio" id="bio"
+                rows="6" cols=""26 style="resize: nome;" 
+                placeholder="Insira...">
+                </textarea>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </div>
+ </fieldset>
+</body>
+
+</html>
