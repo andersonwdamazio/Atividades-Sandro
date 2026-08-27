@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*remover scroll lateral*/
+    overflow-x: hidden;
+}
+
+
+
+.relativo {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+    left: 40%;
+    /*z-index: 1;*/
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    margin-bottom: 16px;
+}
+
+.absoluto {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 255, 255);
+    position: absolute;
+    left:40%; 
+    top:44%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 40%;
+}
+
+.fixo {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 255, 76);
+    position: fixed;
+    left: 40%;
+    bottom: -20%;
+}
+
+.fixo:hover{
+    transition: 0.1 ease-in-out;
+    border-radius: 20%;
+}
