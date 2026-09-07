@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoFi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="lofi.JPEG.jpeg" alt="Cena de um quarto lofi à noite" class="fundo-img">
+
+    <main>
+        <div class="logo">InLoFi</div>
+
+        <div class="login-card">
+            <h1>Cadastre-se</h1>
+
+            <form action="/login-lofi" method="POST">
+
+                <div class="form-group">
+                    <label for="login">Login:</label>
+                    <input type="text" id="login" name="login" pattern="[A-Za-zÀ-ÿ\s]+" title="Digite apenas letras, sem números." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@dominio.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" minlength="8" pattern="(?=.[A-Za-z])(?=.\d).{8,}" title="A senha deve ter no mínimo 8 caracteres, incluindo letras e números." required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gênero:</label>
+                    <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+                    <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                    <label><input type="radio" name="genero" value="outro"> Outro</label>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="lembrar" name="lembrar">
+                        Lembrar de mim
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="termos" name="termos" required>
+                        Eu li e aceito os termos de serviço.
+                    </label>
+                </div>
+
+                <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+
+                <div class="form-buttons">
+                    <button type="submit">Cadastrar</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <section class="blog">
+        <h1>Blog LoFi</h1>
+
+        <section class="intro">
+            <p>
+                Lofi é aquele tipo de música tranquila, com batidas suaves e um clima meio nostálgico —
+                perfeita pra estudar, trabalhar ou só relaxar. Aqui no blog, reunimos dicas, curiosidades
+                e playlists pra você aproveitar cada momento com a trilha sonora certa.
+            </p>
+        </section>
+
+        <section class="posts">
+
+            <article class="post-card">
+                <h2>5 playlists lofi para focar nos estudos</h2>
+                <p>Reunimos as melhores batidas relaxantes pra você manter o foco nas madrugadas de estudo, sem perder aquele clima aconchegante.</p>
+                <a href="#" class="ler-mais">Ler mais →</a>
+            </article>
+
+            <article class="post-card">
+                <h2>A origem do lofi hip hop</h2>
+                <p>Você sabia que o gênero nasceu da mistura entre jazz, hip hop e samples de vinil? Entenda como essa sonoridade conquistou o mundo.</p>
+                <a href="#" class="ler-mais">Ler mais →</a>
+            </article>
+
+            <article class="post-card">
+                <h2>Como montar seu próprio setup lofi de estudos</h2>
+                <p>Luz quente, fones confortáveis e uma boa playlist: veja dicas simples para criar o ambiente perfeito para relaxar e produzir.</p>
+                <a href="#" class="ler-mais">Ler mais →</a>
+            </article>
+
+        </section>
+
+        <p class="em-breve">💬 Em breve, chat aberto</p>
+    </section>
+
+</body>
+</html>

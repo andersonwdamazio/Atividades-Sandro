@@ -45,3 +45,24 @@
     transition: 0.1 ease-in-out;
     border-radius: 20%;
 }
+
+.block {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+} 
+
+.Inline-block{
+    background-color: purple;
+    display: inline-block;
+    width:100px;
+    height: 100px;
+}
+
+.texti + h1 {
+    font-size: 32px;
+}
+
+.texti + h2 {
+    font-size: 2rem;
+}
