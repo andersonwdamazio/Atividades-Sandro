@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #dafaf8;
+}
+
+#exemplos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    color: rgb(70, 0, 199);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
