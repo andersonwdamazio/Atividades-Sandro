@@ -76,4 +76,4 @@ menu();
 
 //SÓ chamar no Node banco.js e vai rodar o programa, 
 // ai é só digitar as opções do menu e ver o saldo mudar conforme 
-// debita/credita
+// saca/deposita 

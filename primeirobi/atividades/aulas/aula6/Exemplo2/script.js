@@ -10,11 +10,6 @@ function adicionar(evento) {
         alert("Vacilo! informe quantidade!")
         return;
     }
-
-        
-    
-    
-    
     const produto = "Produto" + evento.target[0].value;
     const quantidade = "Qtd" + evento.target[1].value;
  
