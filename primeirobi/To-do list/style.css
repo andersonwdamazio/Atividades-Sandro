@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccd6f5;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;  /*aprendi contigo */
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+}
+
+.citacao {
+  margin-top: 25px;
+  color: #000000;
+  font-size: 14px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgb(161, 0, 0);
+}
+
+li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+/*Aqui foi de meme, porque eu queria testar uma animação que eu vi no React*/
+body {
+  background: linear-gradient(-45deg, #f34e4e7a, #4de060f3, #6228beb2, #edeee78f);
+  background-size: 400% 400%;
+  animation: mudarFundo 12s ease infinite;
+}
+
+@keyframes mudarFundo {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
