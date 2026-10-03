@@ -1,0 +1,51 @@
+﻿#root {
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+}
+
+.contador {
+  width: min(100%, 360px);
+  padding: 36px;
+  text-align: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgb(23 32 51 / 10%);
+}
+
+.contador h1 {
+  margin: 0 0 16px;
+  font-size: 1.75rem;
+}
+
+.valor {
+  margin: 0 0 24px;
+  color: #2563eb;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.contador button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contador button:hover {
+  background: #1d4ed8;
+}
+
+.contador button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
