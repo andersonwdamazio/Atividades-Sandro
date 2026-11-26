@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" fill="none">
+  <defs>
+    <linearGradient id="maloneLofiGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E2A0F2"/>
+      <stop offset="55%" stop-color="#C79AEF"/>
+      <stop offset="100%" stop-color="#74DCE7"/>
+    </linearGradient>
+  </defs>
+  <text x="4" y="50" fill="#E34EAA" opacity="0.8" font-family="Arial, sans-serif" font-size="46" font-style="italic" font-weight="900" letter-spacing="-1" textLength="268" lengthAdjust="spacingAndGlyphs">MaloneLofi</text>
+  <text x="1" y="48" fill="#4DDBE8" opacity="0.85" font-family="Arial, sans-serif" font-size="46" font-style="italic" font-weight="900" letter-spacing="-1" textLength="268" lengthAdjust="spacingAndGlyphs">MaloneLofi</text>
+  <text x="2" y="49" fill="url(#maloneLofiGradient)" stroke="#52255E" stroke-width="0.7" paint-order="stroke fill" font-family="Arial, sans-serif" font-size="46" font-style="italic" font-weight="900" letter-spacing="-1" textLength="268" lengthAdjust="spacingAndGlyphs">MaloneLofi</text>
+  <path d="M282 48V33M294 48V20M306 48V28" stroke="#65DCEB" stroke-width="6" stroke-linecap="round"/>
+</svg>
